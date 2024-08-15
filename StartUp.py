@@ -17,8 +17,6 @@ st.markdown("<p>By analyzing a diverse set of parameters, including Market Expen
 st.markdown("<br>", unsafe_allow_html = True)
 st.dataframe(data, use_container_width = True )
 
-st.sidebar.image('pngwing.com (2).png', caption= 'Welcome User')
-
 st.sidebar.write('Feature Input')
 rd_spend = st.sidebar.number_input('Research and Development Expense', data['R&D Spend'].min(), data['R&D Spend'].max()+ 10000)
 admin = st.sidebar.number_input('Administrative Expense', data['Administration'].min(), data['Administration'].max()+ 10000)
