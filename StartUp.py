@@ -8,16 +8,9 @@ import streamlit as st
 import joblib
 from sklearn.linear_model import LinearRegression
 
-
-
 data = pd.read_csv('https://raw.githubusercontent.com/arib168/data/main/50_Startups.csv')
 data.to_csv('StartUp.csv')
 
-st.markdown("<h1 style = 'color: #1F4172; text-align: center; font-family: helvetica '>STARTUP PREDICTION PROJECT</h1>", unsafe_allow_html = True)
-st.markdown("<h4 style = 'margin: -30px; color: #F11A7B; text-align: center; font-family: cursive '>Built By Ziyah</h4>", unsafe_allow_html = True)
-
-##st.write('By analyzing a diverse set of parameters, including Market Expense, Administrative Expense, and Research and Development Spending, our team seeks to develop a robust predictive model that can offer valuable insights into the future financial performance of startups. This initiative not only empowers investors and stakeholders to make data-driven decisions but also provides aspiring entrepreneurs with a comprehensive framework to evaluate the viability of their business models and refine their strategies for long-term success')
-st.image('pngwing.com.png', width = 350, use_column_width = True )
 st.markdown("<br>", unsafe_allow_html= True)
 st.markdown("<p>By analyzing a diverse set of parameters, including Market Expense, Administrative Expense, and Research and Development Spending, our team seeks to develop a robust predictive model that can offer valuable insights into the future financial performance of startups. This initiative not only empowers investors and stakeholders to make data-driven decisions but also provides aspiring entrepreneurs with a comprehensive framework to evaluate the viability of their business models and refine their strategies for long-term success</p>", unsafe_allow_html=True)            
 
